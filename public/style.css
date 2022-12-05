@@ -1,0 +1,190 @@
+html {
+    background-color: rgb(60, 42, 101);
+    color: rgb(234, 231, 239);
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(60, 42, 101);
+    color: rgb(234, 231, 239);
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+.display-list {
+    width: 50%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3%;
+}
+
+table {
+    background: none;
+    width: 90%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(97, 70, 160);
+    color: rgb(208, 201, 220);
+}
+
+th {
+    background: none;
+    border-bottom: 2px solid rgb(86, 62, 143);
+    vertical-align: middle;
+    padding: 5px;
+}
+
+tbody {
+    background-color: rgb(106, 77, 174);
+    color: rgb(216, 210, 226);
+}
+
+tr {
+    background: none;
+    border: 0;
+}
+
+td {
+    background: none;
+    border-bottom: 1px solid rgb(93, 68, 153);
+    padding: 5px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.display-add {
+    width: 50%;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1%;
+}
+
+button#part-add {
+    background-color: darkgreen;
+    color: rgb(228, 238, 228);
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+button#part-add:hover {
+    background-color: rgb(0, 81, 0);
+    color: rgb(192, 214, 192);
+}
+
+button#part-add:active {
+    background-color: rgb(0, 61, 0);
+    color: rgb(165, 196, 165);
+}
+
+.display-delete {
+    width: 50%;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1%;
+}
+
+button#part-delete {
+    background-color: maroon;
+    color: rgb(239, 230, 230);
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+button#part-delete:hover {
+    background-color: rgb(89, 0, 0);
+    color: rgb(220, 199, 199);
+}
+
+button#part-delete:active {
+    background-color: rgb(65, 0, 0);
+    color: rgb(194, 159, 159);
+}
+
+form {
+    background-color: rgb(84, 61, 139);
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+    float: left;
+    vertical-align: middle;
+}
+
+input {
+    background-color: rgb(117, 85, 191);
+    color: rgb(234, 231, 239);
+    vertical-align: middle;
+    font-size: 20px;
+    width: 35%;
+    height: max-content;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: rgb(117, 85, 191);
+    border: none;
+    outline-color: rgb(117, 85, 191);
+}
